@@ -1,0 +1,137 @@
+Nombre,Ciudad,Poblacion,Pais,Presupuesto,CapacidadEstadio,Latitud,Longitud
+Athletic Club,Bilbao,Medio,Espana,Medio,Alto,Norte,Centro
+Real Club Celta de Vigo,Vigo,Medio,Espana,Bajo,Medio,Norte,Oeste
+Club Atletico de Madrid,Madrid,Alto,Espana,Alto,Alto,Centro,Centro
+Real Club Deportivo Espanyol,Barcelona,Alto,Espana,Bajo,Medio,Norte,Este
+Club Deportivo Leganes,Leganes,Bajo,Espana,Bajo,Bajo,Centro,Centro
+Real Madrid Club de Futbol,Madrid,Alto,Espana,Alto,Alto,Centro,Centro
+Deportivo Alaves,Vitoria,Bajo,Espana,Bajo,Bajo,Norte,Centro
+Real Sociedad de Futbol,San Sebastian,Bajo,Espana,Medio,Medio,Norte,Centro
+Futbol Club Barcelona,Barcelona,Alto,Espana,Alto,Alto,Norte,Este
+Real Valladolid Club de Futbol,Valladolid,Medio,Espana,Bajo,Medio,Norte,Centro
+Getafe Club de Futbol,Getafe,Bajo,Espana,Bajo,Bajo,Centro,Centro
+Sevilla Futbol Club,Sevilla,Medio,Espana,Alto,Medio,Sur,Oeste
+Club Atletico Osasuna,Pamplona,Bajo,Espana,Bajo,Bajo,Norte,Centro
+Sociedad Deportiva Eibar,Eibar,Bajo,Espana,Bajo,Bajo,Norte,Centro
+Levante Union Deportiva,Valencia,Alto,Espana,Bajo,Medio,Centro,Este
+Granada Club de Futbol,Granada,Bajo,Espana,Bajo,Bajo,Sur,Centro
+Real Club Deportivo Mallorca,Mallorca,Medio,Espana,Bajo,Bajo,Centro,Este
+Valencia Club de Futbol,Valencia,Alto,Espana,Alto,Medio,Centro,Este
+Real Betis Balompie,Sevilla,Medio,Espana,Medio,Alto,Sur,Oeste
+Villarreal Club de Futbol,Villarreal,Bajo,Espana,Medio,Bajo,Centro,Este
+Arsenal,Londres,Alto,Inglaterra,Medio,Alto,Sur,Este
+Aston Villa,Birmingham,Alto,Inglaterra,Bajo,Medio,Centro,Centro
+Bournemouth,Bournemouth,Bajo,Inglaterra,Medio,Bajo,Sur,Centro
+Brighton & Hove Albion,Brighton & Hove,Medio,Inglaterra,Medio,Medio,Sur,Este
+Burnley,Burnley,Bajo,Inglaterra,Bajo,Bajo,Norte,Centro
+Chelsea,Londres,Alto,Inglaterra,Alto,Medio,Sur,Este
+Crystal Palace,Londres,Alto,Inglaterra,Medio,Medio,Sur,Este
+Everton,Liverpool,Medio,Inglaterra,Medio,Medio,Norte,Centro
+Leicester City,Leicester,Medio,Inglaterra,Medio,Medio,Centro,Centro
+Liverpool,Liverpool,Medio,Inglaterra,Alto,Alto,Norte,Centro
+Manchester City,Manchester,Medio,Inglaterra,Alto,Alto,Norte,Centro
+Manchester United,Manchester,Medio,Inglaterra,Alto,Alto,Norte,Centro
+Newcastle United,Newcastle,Medio,Inglaterra,Medio,Alto,Norte,Este
+Norwich City,Norwich,Bajo,Inglaterra,Bajo,Medio,Centro,Este
+Sheffield United,Sheffield,Medio,Inglaterra,Bajo,Medio,Norte,Centro
+Southampton,Southampton,Medio,Inglaterra,Medio,Medio,Sur,Centro
+Tottenham Hotspur,Londres,Alto,Inglaterra,Alto,Alto,Sur,Este
+Watford,Watford,Bajo,Inglaterra,Medio,Bajo,Sur,Este
+West Ham United,Londres,Alto,Inglaterra,Medio,Alto,Sur,Este
+Wolverhampton Wanderers,Wolverhampton,Medio,Inglaterra,Medio,Medio,Centro,Centro
+A. S. Monaco,Monaco,Bajo,Francia,Medio,Bajo,Sur,Este
+A. S. Saint-Etienne,Saint-Etienne,Bajo,Francia,Bajo,Medio,Centro,Centro
+Amiens S. C.,Amiens,Bajo,Francia,Bajo,Bajo,Norte,Centro
+Angers S. C. O.,Angers,Bajo,Francia,Bajo,Bajo,Centro,Oeste
+Dijon F. C. O.,Dijon,Bajo,Francia,Bajo,Bajo,Centro,Centro
+F. C. Girondins de Burdeos,Burdeos,Bajo,Francia,Bajo,Medio,Sur,Oeste
+F. C. Metz,Metz,Bajo,Francia,Bajo,Medio,Centro,Este
+F. C. Nantes,Nantes,Medio,Francia,Bajo,Medio,Centro,Oeste
+Lille O. S. C.,Lille,Bajo,Francia,Medio,Alto,Norte,Centro
+Montpellier Herault S. C.,Montpellier,Medio,Francia,Bajo,Medio,Sur,Centro
+Nimes Olympique F. C.,Nimes,Bajo,Francia,Bajo,Bajo,Sur,Centro
+O. G. C. Niza,Niza,Medio,Francia,Medio,Medio,Sur,Este
+Olympique de Lyon,Lyon,Medio,Francia,Medio,Alto,Centro,Centro
+Olympique de Marsella,Marsella,Alto,Francia,Medio,Alto,Sur,Este
+Paris Saint-Germain,Paris,Alto,Francia,Alto,Medio,Norte,Centro
+R. C. Estrasburgo,Estrasburgo,Medio,Francia,Bajo,Medio,Norte,Este
+Stade Brestois 29,Brest,Bajo,Francia,Bajo,Bajo,Centro,Oeste
+Stade de Reims,Reims,Bajo,Francia,Bajo,Bajo,Norte,Centro
+Stade Rennais F. C.,Rennes,Bajo,Francia,Bajo,Medio,Centro,Oeste
+Toulouse F. C.,Toulouse,Medio,Francia,Bajo,Medio,Sur,Centro
+Atalanta,Bergamo,Bajo,Italia,Medio,Bajo,Norte,Centro
+Bologna,Bolonia,Medio,Italia,Bajo,Medio,Norte,Centro
+Brescia,Brescia,Bajo,Italia,Bajo,Bajo,Norte,Centro
+Cagliari,Cagliari,Bajo,Italia,Bajo,Bajo,Sur,Oeste
+Fiorentina,Florencia,Medio,Italia,Medio,Medio,Norte,Centro
+Genoa,Genova,Medio,Italia,Bajo,Medio,Norte,Oeste
+Hellas Verona,Verona,Medio,Italia,Bajo,Medio,Norte,Centro
+Internazionale,Milan,Alto,Italia,Alto,Alto,Norte,Centro
+Juventus,Turin,Alto,Italia,Alto,Medio,Norte,Oeste
+Lazio,Roma,Alto,Italia,Bajo,Alto,Centro,Centro
+Lecce,Lecce,Bajo,Italia,Bajo,Medio,Sur,Centro
+Milan,Milan,Alto,Italia,Alto,Alto,Norte,Centro
+Napoli,Napoles,Alto,Italia,Alto,Alto,Sur,Centro
+Parma,Parma,Bajo,Italia,Bajo,Medio,Norte,Centro
+Roma,Roma,Alto,Italia,Alto,Alto,Centro,Centro
+Sampdoria,Genova,Medio,Italia,Bajo,Medio,Norte,Oeste
+Sassuolo,Sassuolo,Bajo,Italia,Bajo,Bajo,Norte,Centro
+SPAL,Ferrara,Bajo,Italia,Bajo,Bajo,Norte,Este
+Torino,Turin,Alto,Italia,Medio,Medio,Norte,Oeste
+Udinese,Udine,Bajo,Italia,Bajo,Medio,Norte,Este
+Bayer Leverkusen,Leverkusen,Bajo,Alemania,Alto,Medio,Centro,Oeste
+F. C. Bayern,Munich,Alto,Alemania,Alto,Alto,Sur,Centro
+B. V. Borussia,Dortmund,Medio,Alemania,Alto,Alto,Centro,Oeste
+Borussia Vfl Monchegladbach,Monchegladbach,Medio,Alemania,Alto,Alto,Centro,Oeste
+Eintracht F. F.,Frankfurt,Medio,Alemania,Bajo,Alto,Centro,Oeste
+F. C. Augsburg,Augsburgo,Medio,Alemania,Bajo,Medio,Sur,Centro
+F. C. Köln,Colonia,Alto,Alemania,Bajo,Alto,Centro,Oeste
+VfB Stuttgart,Stuttgart,Medio,Alemania,Bajo,Alto,Sur,Centro
+S. C. Paderborn,Paderborn,Bajo,Alemania,Bajo,Bajo,Centro,Centro
+F. C. Nuremberg,Nuremberg,Medio,Alemania,Bajo,Alto,Sur,Centro
+Hertha Berliner S. C.,Berlin,Alto,Alemania,Medio,Alto,Norte,Este
+R. B. Leipzig,Leipzig,Medio,Alemania,Bajo,Medio,Centro,Este
+F. S. V. Mainz,Maguncia,Bajo,Alemania,Medio,Medio,Centro,Oeste
+F. C. Gelsenkirchen-Schalke,Gelsenkirchen,Medio,Alemania,Alto,Alto,Centro,Oeste
+S. C. Freiburg,Friburgo,Bajo,Alemania,Bajo,Bajo,Sur,Centro
+F. C. Union Berlin,Berlin,Alto,Alemania,Bajo,Bajo,Norte,Este
+T. S. G. Hoffenheim,Sinsheim,Bajo,Alemania,Medio,Medio,Sur,Centro
+S. V. Werder Bremen,Bremen,Medio,Alemania,Bajo,Medio,Norte,Oeste
+VfL Wolfsburg,Wolfsburgo,Bajo,Alemania,Alto,Medio,Norte,Centro
+Düsseldorfer TSV Fortuna,Düsseldorf,Medio,Alemania,Bajo,Alto,Centro,Oeste
+ADO Den Haag,La Haya,Medio,Holanda,Bajo,Bajo,Centro,Oeste
+Ajax,Amsterdam,Alto,Holanda,Medio,Alto,Centro,Oeste
+AZ,Alkmaar,Bajo,Holanda,Bajo,Bajo,Norte,Oeste
+FC Emmen,Emmen,Bajo,Holanda,Bajo,Bajo,Norte,Este
+FC Groningen,Groniga,Bajo,Holanda,Bajo,Bajo,Norte,Este
+FC Twente,Enschede,Bajo,Holanda,Bajo,Medio,Centro,Este
+FC Utrecht,Utrecht,Medio,Holanda,Bajo,Bajo,Centro,Centro
+Feyenoord,Roterdam,Medio,Holanda,Medio,Alto,Centro,Oeste
+Fortuna Sittard,Sittard,Bajo,Holanda,Bajo,Bajo,Sur,Este
+Heracles Almelo,Almelo,Bajo,Holanda,Bajo,Bajo,Centro,Este
+PEC Zwolle,Zwolle,Bajo,Holanda,Bajo,Bajo,Centro,Este
+PSV Eindhoven,Eindhoven,Bajo,Holanda,Medio,Medio,Sur,Este
+RKC Waalwijk,Waalwijk,Bajo,Holanda,Bajo,Bajo,Sur,Centro
+SC Heerenveen,Heerenveen,Bajo,Holanda,Bajo,Medio,Norte,Centro
+Sparta Rotterdam,Roterdam,Medio,Holanda,Bajo,Bajo,Centro,Oeste
+Vitesse,Arnhem,Bajo,Holanda,Bajo,Bajo,Centro,Este
+VVV-Venlo,Venlo,Bajo,Holanda,Bajo,Bajo,Sur,Este
+Willem II Tilburg,Tilburgo,Bajo,Holanda,Bajo,Bajo,Sur,Centro
+Belenenses,Lisboa,Medio,Portugal,Bajo,Medio,Centro,Oeste
+Benfica,Lisboa,Medio,Portugal,Medio,Alto,Centro,Oeste
+Braga,Braga,Bajo,Portugal,Medio,Medio,Norte,Oeste
+Boavista,Oporto,Bajo,Portugal,Bajo,Medio,Norte,Oeste
+Desportivo das Aves,Vila das Aves,Bajo,Portugal,Bajo,Bajo,Norte,Oeste
+Famalicao,Vila Nova de Famalicao,Bajo,Portugal,Bajo,Bajo,Norte,Oeste
+Gil Vicente,Barcelos,Bajo,Portugal,Bajo,Bajo,Norte,Oeste
+Maritimo,Funchal,Bajo,Portugal,Bajo,Bajo,Sur,Oeste
+Moreirense,Moreira de Conegos,Bajo,Portugal,Bajo,Bajo,Norte,Oeste
+Pacos de Ferreira,Pacos de Ferreira,Bajo,Portugal,Bajo,Bajo,Norte,Oeste
+Portimonense,Portimao,Bajo,Portugal,Bajo,Bajo,Sur,Oeste
+Porto,Oporto,Bajo,Portugal,Medio,Alto,Norte,Oeste
+Rio Ave,Vila do Conde,Bajo,Portugal,Bajo,Bajo,Norte,Oeste
+Santa Clara,Ponta Delgada,Bajo,Portugal,Bajo,Bajo,Sur,Oeste
+Sporting de Portugal,Lisboa,Medio,Portugal,Medio,Alto,Centro,Oeste
+Tondela,Tondela,Bajo,Portugal,Bajo,Bajo,Norte,Centro
+Vitoria de Guimaraes,Guimaraes,Bajo,Portugal,Bajo,Medio,Norte,Oeste
+Vitoria de Setubal,Setubal,Bajo,Portugal,Bajo,Bajo,Centro,Oeste
