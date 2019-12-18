@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<title>casual team recomendator</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <img class="imagen" src="https://s1.eestatic.com/2017/05/02/elbernabeu/futbol/Futbol_212990738_89786625_1024x576.jpg">
+    </div>
+    <div class="fondo">
+    </div>
+    <div class="informacion">
+      <div class="msj_principal">
+      </div>
+      <div class="selects">
+
+            <h3> Formulario:</h3>
+                <form>
+                  <table style="width:100%">
+                  País del equipo: <br>
+                  <select name="pais" id="pais">
+                    <option selected value="Debes elegir un país"><b>Elige una opcion</b></option>
+                    <option value="Espana">España</option> 
+                    <option value="Inglaterra">Inglaterra</option> 
+                    <option value="Italia">Italia</option>
+                    <option value="Francia">Francia</option> 
+                    <option value="Alemania">Alemania</option> 
+                    <option value="Holanda">Holanda</option>
+                    <option value="Portugal">Portugal</option>  
+                  </select>
+                  <br><br>Latitud:<br>
+                  <select name="latitud" id="latitud">
+                      <option selected value="Debes elegir una latitud"><b>Elige una opcion</b></option>
+                      <option value="Norte">Norte</option> 
+                      <option value="Centro">Centro</option> 
+                      <option value="Sur">Sur</option>   
+                  </select>
+                  <br><br>Longitud:<br>
+                  <select name="longitud" id="longitud">
+                      <option selected value="Debes elegir un longitud"><b>Elige una opción</b></option>
+                      <option value="Oeste">Oeste</option> 
+                      <option value="Centro">Centro</option> 
+                      <option value="Este">Este</option>   
+                  </select>
+                <br><br>Presupuesto del equipo:<br>
+                <select name="presupuesto" id="presupuesto">
+                    <option selected value="¿Presupuesto del equipo?"><b>Elige una opción</b></option>
+                    <option value="Bajo">Presupuesto bajo</option> 
+                    <option value="Medio">Presupuesto medio</option> 
+                    <option value="Alto">Presupuesto alto</option>   
+                </select>
+                <br><br>Capacidad del estadio:<br>
+                <select name="capacidad" id="capacidad">
+                    <option selected value="¿capacidad del estadio?"><b>Elige una opción</b></option>
+                    <option value="Bajo">Menor de 25000 espectadores</option> 
+                    <option value="Medio">Entre 25000 y 50000 espectadores</option> 
+                    <option value="Alto">Mayor de 50000 espectadores</option>   
+                </select><br>
+              </table>
+            </form>
+          </div>    
+          <button class="button" id="team" onclick="getData()">Buscar Datos</input>          
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+.titulo {
+  color: rgb(255, 255, 255);
+}
+
+.msj_principal {
+  margin-bottom: 10px;
+}
+
+.selects {
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-right: auto;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacion {
+  position: relative;
+  display: inline-block;
+  margin-left: 41%;
+  text-align: left;
+  z-index: 10;
+  margin-top: 6%;
+}
+
+.imagen {
+  position: absolute;
+  width: 100.5%;
+  height: 102%;
+  margin-left: -1%;
+  margin-top: -1%;
+  z-index: -3;
+}
+
+body {
+  background: #000000;
+  overflow-x:hidden;
+}
+
+.fondo {
+  position: absolute;
+  background: #000000;
+  z-index: 5;
+  width: 20%;
+  height: 80%;
+  margin-left: 40%;
+  margin-top: 4%;
+  opacity: 60%;
+}
+
+.button {
+  text-align: center;
+  background: #049e6b;
+  height: 44px;
+  width: 240px;
+  border-radius: 22px;
+  margin-top: 16px;
+  margin-left: 8px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+select {
+  margin-top: 10px;
+}
+</style>
+
+
+<script>
+  function getData() { 
+    var pais = document.getElementById("pais").value;
+    var latitud = document.getElementById("latitud").value;
+    var longitud = document.getElementById("longitud").value;
+    var presupuesto = document.getElementById("presupuesto").value;
+    var capacidad = document.getElementById("capacidad").value;
+    envia();
+  function envia() {
+    const path = 'http://localhost:5000/api/v1.0/obtiene'
+    axios.post(path, {
+      country: pais,
+      latitude: latitud,
+      longitude: longitud,
+      budget: presupuesto,
+      capacity: capacidad
+    })
+      .then(function(res) {
+        var salida = "";
+        for(var i=0; i<res.data.recomendacion.length; i++){
+          salida = salida + "\n\t\t--> " + res.data.recomendacion[i];
+        }
+        alert(res.data.mensaje + "\n" + salida);
+      })
+      .catch(function(err) {
+        alert("Debes seleccionar algo en todos los campos")
+      })
+  }
+}
+</script>
